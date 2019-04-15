@@ -23,3 +23,7 @@ The circuit is using 555 timer working monostable - which basically means is has
 Also, despite the fact that the voltage I'm using is higher (9v battery instead of 5v Ben is using), the time the LED lights up is the same - this is because the 3 resistors inside of NE555 are acting as reference for SR latch to switch - and voltage on each of those it gonna be higher due to 9v battery (6v and 3v respectively). So, the 1M capacitor is charged faster on 9V battery, but then the resistors also need  higher reference voltage to trigger the SR latch - thus the effect cancels out = same time for LED to light up.
 
 Now I need to figure out the voltage divider for LS chips cause they won't work correctly on 9v battery. Or just change the battery to lower voltage...
+
+15.04.2019 - adding 7805 linear voltage regulator allowed for moderating voltage 5v - as required by LS chips:
+https://photos.app.goo.gl/yx3v7NWd7WakuEx16
+https://photos.app.goo.gl/n6rvW5TRZJwUxog56

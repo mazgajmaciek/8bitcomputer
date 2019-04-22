@@ -27,3 +27,18 @@ Now I need to figure out the voltage divider for LS chips cause they won't work 
 15.04.2019 - adding 7805 linear voltage regulator allowed for moderating voltage 5v - as required by LS chips:
 https://photos.app.goo.gl/yx3v7NWd7WakuEx16
 https://photos.app.goo.gl/n6rvW5TRZJwUxog56
+
+22.04.2019 - added 3 LS chips:
+  - 1x 74LS04 (Hex inverter) 
+  - 1x 74LS08 (Quad AND gate) 
+  - 1x 74LS32 (Quad OR gate)
+that together control the clock output (be it monostable or astable ticks over 555 timers):
+https://imgur.com/a/uG5DH8F
+![My image](https://i.imgur.com/Z9cc8RK.png)
+
+So depending on the position of select switch, it will allow for switching between the two modes, the blue LED eventually outputting the current mode, mimmicking one of the astable / monostable yellow LEDs we already did before.  
+
+
+
+
+# Registers

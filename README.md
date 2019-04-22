@@ -49,4 +49,4 @@ Astable, monostable and select voltage sources would be of course coming from OU
 On the example of an astable pulse, first AND gate will allow the current flow only when select switch is allowing current to flow to it and astable pulse is 1 (yellow LED is lit up). Then, OR gate allows the current to pass further cause for OR gate it's sufficient for the current to flow only from one source to pass current on. Eventually, current reaches the last AND gate that's receiving current from the just described source, but also from inverted HALT jumper wire. 
 
 # Registers
-THe fun part starts, I guess ;)
+The fun part starts, I guess ;)

@@ -41,4 +41,9 @@ So depending on the position of select switch, it will allow for switching betwe
 
 ![My image](https://i.imgur.com/saG1DRD.jpg)
 
+To put it in different perspective:
+![My image](https://i.imgur.com/9yB29dA.png)
+
+
+
 # Registers

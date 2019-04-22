@@ -35,10 +35,10 @@ https://photos.app.goo.gl/n6rvW5TRZJwUxog56
 that together control the clock output (be it monostable or astable ticks over 555 timers):
 https://imgur.com/a/uG5DH8F
 ![My image](https://i.imgur.com/Z9cc8RK.png)
+(taken from https://youtu.be/SmQ5K7UQPMM)
 
 So depending on the position of select switch, it will allow for switching between the two modes, the blue LED eventually outputting the current mode, mimmicking one of the astable / monostable yellow LEDs we already did before.  
 
-
-
+![My image](https://i.imgur.com/saG1DRD.jpg)
 
 # Registers

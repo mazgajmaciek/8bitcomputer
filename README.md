@@ -46,7 +46,9 @@ To put it in different perspective:
 
 Astable, monostable and select voltage sources would be of course coming from OUT pins of each respective 555 timers.
 
-On the example of an astable pulse, first AND gate will allow the current flow only when select switch is allowing current to flow to it and astable pulse is 1 (yellow LED is lit up). Then, OR gate allows the current to pass further cause for OR gate it's sufficient for the current to flow only from one source to pass current on. Eventually, current reaches the last AND gate that's receiving current from the just described source, but also from inverted HALT jumper wire. 
+On the example of an astable pulse, first AND gate will allow the current flow only when select switch is allowing current to flow to it and astable pulse is 1 (yellow LED is lit up). Then, OR gate allows the current to pass further cause for OR gate it's sufficient for the current to flow only from one source to pass current on. Eventually, current reaches the last AND gate that's receiving current from the just described source, but also from inverted HALT jumper wire (that, if just connected straight to AND gate, would not work cause it would give state 0). Since it's inverted through one of the NOT gates on 74LS04 inverter, it allows for 1 state, which eventually gives the last AND gate two 1-state sources, thus allowing for the blue LED to light up.
+
+Analogous situation will of course happen with monostable clock.
 
 # Registers
 The fun part starts, I guess ;)

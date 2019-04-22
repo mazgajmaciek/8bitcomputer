@@ -44,6 +44,8 @@ So depending on the position of select switch, it will allow for switching betwe
 To put it in different perspective:
 ![My image](https://i.imgur.com/9yB29dA.png)
 
+Astable, monostable and select voltage sources would be of course coming from OUT pins of each respective 555 timers.
 
+On the example of an astable pulse, first AND gate will allow the current flow only when select switch is allowing current to flow to it and astable pulse is 1 (yellow LED is lit up). Then, OR gate allows the current to pass further cause for OR gate it's sufficient for the current to flow only from one source to pass current on. Eventually, current reaches the last AND gate that's receiving current from the just described source, but also from inverted HALT jumper wire. 
 
 # Registers
